@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<addon id="plugin.audio.audible" name="Audible" version="0.1.0" provider-name="thymoze">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Audible for Kodi</summary>
+    <description lang="en_GB"></description>
+    <disclaimer lang="en_GB"></disclaimer>
+    <language>en</language> <!-- the language of the videos or other content the plugin provides, may be omitted in case the addon does not provide any content -->
+    <platform>all</platform>
+    <license>AGPL-3</license>
+    <website>https://audible.com</website> <!-- the url of the website that contains the videos (or the official website of your plugin). May be omitted.  -->
+    <!--<forum>https://forum.kodi.tv/showthread.php?tid=xxxx</forum> -->
+    <!--<email>you@youremail.com</email> -->
+    <source>http://github.com/thymoze/plugin.audio.audible</source>
+    <news>
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+        <banner></banner> <!-- optional -->
+        <clearlogo>resources/clearlogo.png</clearlogo> <!-- optional  -->
+        <screenshot></screenshot> <!-- optional, max 10  -->
+    </assets>
+  </extension>
+</addon>
